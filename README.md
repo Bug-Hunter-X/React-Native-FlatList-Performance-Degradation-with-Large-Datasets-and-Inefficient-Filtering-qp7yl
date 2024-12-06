@@ -1,0 +1,3 @@
+# React Native FlatList Performance Issue
+
+This repository demonstrates a common performance issue in React Native applications involving FlatList and large datasets. The initial implementation uses an inefficient filtering method inside a useEffect hook, causing significant performance degradation when the search input changes. The solution shows how to optimize the filtering process and improve the overall performance of the FlatList.
